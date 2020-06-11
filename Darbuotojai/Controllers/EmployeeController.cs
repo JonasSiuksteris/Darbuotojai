@@ -34,7 +34,7 @@ namespace Darbuotojai.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> CreateEmployee(EmployeeViewModel employeeModel)
+        public async Task<IActionResult> CreateEmployee(CreateEmployeeViewModel employeeModel)
         {
             if (!ModelState.IsValid) return View("Error", new ErrorViewModel { Error = "Invalid Model State" });
 

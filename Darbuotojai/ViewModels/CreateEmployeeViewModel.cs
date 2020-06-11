@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Darbuotojai.ViewModels
 {
-    public class EmployeeViewModel
+    public class CreateEmployeeViewModel
     {
         public string Name { get; set; }
         public string Surname { get; set; }
